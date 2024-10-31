@@ -1,0 +1,301 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PopUpBuilder.App\n"
+"POT-Creation-Date: 2022-10-15 23:17+0200\n"
+"PO-Revision-Date: 2022-10-15 23:26+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: popupbuilder-app.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: src/Admin.php:35
+msgid "Refresh now"
+msgstr "Jetzt aktualisieren"
+
+#: src/Admin.php:36
+msgid "Ignore"
+msgstr "Ignorieren"
+
+#: src/Admin.php:37
+msgid "Settings Saved"
+msgstr "Einstellungen gespeichert"
+
+#: src/Admin.php:38
+msgid "Do you really want to disconnect the plugin and reset its settings?"
+msgstr ""
+"Möchten Sie das Plugin wirklich trennen und die Einstellungen zurücksetzen?"
+
+#: src/Admin.php:39
+msgid "Reset Connection"
+msgstr "Verbindung zurücksetzen"
+
+#: src/Admin.php:40
+msgid "Discard"
+msgstr "Verwerfen"
+
+#. Plugin Name of the plugin/theme
+#: src/Admin.php:50 src/Admin.php:51 templates/admin-overview.php:17
+#: templates/admin-setup-completed.php:2 templates/admin-setup.php:11
+msgid "PopUpBuilder.App"
+msgstr "PopUpBuilder.App"
+
+#: src/ApiClient.php:50
+msgid "One or more errors occurred during the operation:"
+msgstr "Während des Vorgangs sind ein oder mehrere Fehler aufgetreten:"
+
+#: src/RestApi.php:45 src/RestApi.php:65 src/RestApi.php:99
+msgid "Access forbidden"
+msgstr "Zugriff verweigert"
+
+#: src/RestApi.php:56 src/RestApi.php:89
+msgid "Settings saved"
+msgstr "Einstellungen gespeichert"
+
+#: src/RestApi.php:120
+msgid "Found new notifications, please refresh this page!"
+msgstr "Neue PopUp-Widgets gefunden, bitte aktualisieren Sie diese Seite!"
+
+#: src/RestApi.php:128
+msgid "API is not reachable or your key is wrong"
+msgstr "API ist nicht erreichbar oder Ihr API-Key ist falsch"
+
+#: src/RestApi.php:136
+msgid "Campaign is disabled and will not deliver your content!"
+msgstr "Die Kampagne ist deaktiviert und liefert Ihre Inhalte nicht aus!"
+
+#: src/RestApi.php:144
+msgid "Domain mismatch: Campaign domain does not match website domain"
+msgstr ""
+"Domain-Mismatch: Kampagnen-Domain stimmt nicht mit Website-Domain überein"
+
+#: src/RestApi.php:151
+msgid "Everything is fine"
+msgstr "Alles ist in Ordnung"
+
+#: templates/admin-overview.php:19
+msgid "Campaign"
+msgstr "Kampagne"
+
+#: templates/admin-overview.php:20
+msgid "Domain"
+msgstr "Domain"
+
+#: templates/admin-overview.php:21
+msgid "API-Key"
+msgstr "API-Key"
+
+#: templates/admin-overview.php:22
+msgid "Connecting..."
+msgstr "Verbinden..."
+
+#: templates/admin-overview.php:33
+msgid "You are ready to go!"
+msgstr "Sie können loslegen!"
+
+#: templates/admin-overview.php:34
+msgid ""
+"You have sucessfully connected your account and pixel. This plugin will "
+"automatically add the pixel to your website."
+msgstr ""
+"Du hast deinen Account und dein Pixel erfolgreich verbunden. Dieses Plugin "
+"fügt das Pixel automatisch zu Ihrer Website hinzu."
+
+#: templates/admin-overview.php:35
+msgid ""
+"If you have any problems with the delivery of your popups or notification "
+"widgets: Make sure that you have connected the correct campaign / domain and "
+"that your campaign and widgets are enabled. Check the status indicator (top "
+"right) for problems."
+msgstr ""
+"Wenn Sie Probleme mit der Auslieferung Ihrer PopUps oder Benachrichtigungs-"
+"Widgets haben: Stellen Sie sicher, dass Sie die richtige Kampagne / Domain "
+"verbunden haben und dass Ihre Kampagne und Widgets aktiviert sind. "
+"Überprüfen Sie die Statusanzeige (oben rechts) auf Probleme."
+
+#: templates/admin-overview.php:36
+msgid "Go to PopUpBuilder.App"
+msgstr "Öffne PopUpBuilder.App"
+
+#: templates/admin-overview.php:36
+msgid "Configure WordPress Integration"
+msgstr "WordPress-Integration konfigurieren"
+
+#: templates/admin-overview.php:40
+msgid "Your notification widgets"
+msgstr "Ihre Benachrichtigungs-Widgets"
+
+#: templates/admin-overview.php:50
+msgid "Enabled"
+msgstr "Aktiviert"
+
+#: templates/admin-overview.php:50
+msgid "Disabled"
+msgstr "Deaktiviert"
+
+#: templates/admin-overview.php:61
+msgid "Integration settings"
+msgstr "Integrationseinstellungen"
+
+#: templates/admin-overview.php:69
+msgid "Automatically integrate PopUpBuilder.App pixel code"
+msgstr "Automatisches Integrieren des PopUpBuilder.App Pixelcode"
+
+#: templates/admin-overview.php:74
+msgid "Configure Data Integrations between WordPress and PopUpBuilder.App"
+msgstr ""
+"Konfigurieren von Datenintegrationen zwischen WordPress und PopUpBuilder.App"
+
+#: templates/admin-overview.php:76
+msgid "WooCommerce Orders"
+msgstr "Shop-Bestellungen"
+
+#: templates/admin-overview.php:79
+msgid ""
+"Notifications you activate here will receive WooCommerce orders, you can use "
+"the following data within you notification widgets:"
+msgstr ""
+"Benachrichtigungen, die Sie hier aktivieren, erhalten WooCommerce-"
+"Bestellungen, Sie können die folgenden Daten in Ihren Benachrichtigungs-"
+"Widgets verwenden:"
+
+#: templates/admin-overview.php:80
+msgid "Billing first name"
+msgstr "Rechnung Vorname"
+
+#: templates/admin-overview.php:80
+msgid "Billing last name"
+msgstr "Rechnung Nachname"
+
+#: templates/admin-overview.php:80
+msgid "Billing city"
+msgstr "Rechnung Stadt"
+
+#: templates/admin-overview.php:80
+msgid "Billing postcode"
+msgstr "Rechnungs Postleitzahl"
+
+#: templates/admin-overview.php:80
+msgid "Billing country"
+msgstr "Rechnungsland"
+
+#: templates/admin-overview.php:80
+msgid "Total order value"
+msgstr "Gesamtauftragswert"
+
+#: templates/admin-overview.php:80
+msgid "Ordered products, comma separated product names"
+msgstr "Bestellte Produkte, kommagetrennte Produktnamen"
+
+#: templates/admin-overview.php:91
+msgid ""
+"This notification is disabled in our backend, you can send data, but the "
+"notification will not shown on your site."
+msgstr ""
+"Diese Benachrichtigung ist in unserem Backend deaktiviert, Sie können Daten "
+"senden, aber die Benachrichtigung wird nicht auf Ihrer Website angezeigt."
+
+#: templates/admin-overview.php:95
+msgid ""
+"Create your first Conversion-PopUp before you can associate WooCommerce "
+"data.."
+msgstr ""
+"Erstellen Sie Ihr erstes Conversion-PopUp, bevor Sie WooCommerce-Daten "
+"verknüpfen können."
+
+#: templates/admin-overview.php:102
+msgid "Reconnect: Delete API key and settings"
+msgstr "Erneute Verbindung: API-Schlüssel und Einstellungen löschen"
+
+#: templates/admin-setup-completed.php:6
+msgid "Congrats, you're done"
+msgstr "Herzlichen Glückwunsch, Sie sind fertig"
+
+#: templates/admin-setup-completed.php:7
+msgid ""
+"Great, you are done with the setup. You can now start to configure your "
+"popups and notification widgets in our portal or connect webhooks here in "
+"the plugin."
+msgstr ""
+"Super, du bist fertig mit dem Setup. Sie können nun damit beginnen, Ihre "
+"Popups und Benachrichtigungs-Widgets in unserem Portal zu konfigurieren oder "
+"Webhooks hier im Plugin zu verbinden."
+
+#: templates/admin-setup-completed.php:8
+msgid "Configure the plugin"
+msgstr "Konfigurieren Sie das Plugin"
+
+#: templates/admin-setup.php:22
+msgid "Please select your campaign ..."
+msgstr "Bitte wählen Sie Ihre Kampagne aus ..."
+
+#: templates/admin-setup.php:23
+msgid "Please select the campaign you want to connect."
+msgstr "Bitte wählen Sie die Kampagne aus, die Sie verbinden möchten."
+
+#: templates/admin-setup.php:35
+msgid "Select Campaign"
+msgstr "Kampagne auswählen"
+
+#: templates/admin-setup.php:37
+msgid ""
+"Sorry, we can not find any campaigns in your account. Please create one "
+"before we can continue here."
+msgstr ""
+"Leider können wir keine Kampagnen in Ihrem Konto finden. Bitte erstellen Sie "
+"eine, bevor wir hier fortfahren können."
+
+#: templates/admin-setup.php:46 templates/admin-setup.php:50
+msgid "Please enter your API Key ..."
+msgstr "Bitte geben Sie Ihren API-Schlüssel ein ..."
+
+#: templates/admin-setup.php:47
+msgid ""
+"Please enter your <a href=\"https://my.popupbuilder.app/account-api\" target="
+"\"_blank\">PopUpBuilder.App API-Key</a> to connect the Plugin.<br/>Don´t "
+"have an API-Key? <a href=\"https://my.popupbuilder.app/register\" target="
+"\"_blank\">Register for an account, it´s free!</a>"
+msgstr ""
+"Bitte geben Sie Ihren <a href=\"https://my.popupbuilder.app/account-api\" "
+"target=\"_blank\">PopUpBuilder.App API-Key</a> ein, um das Plugin zu "
+"verbinden.<br/>Sie haben noch keinen API-Key? <a href=\"https://my."
+"popupbuilder.app/register\" target=\"_blank\">Registrieren Sie sich für ein "
+"Konto, es ist kostenlos!</a>"
+
+#: templates/admin-setup.php:51
+msgid "Sign In"
+msgstr "Anmelden"
+
+#: templates/admin-setup.php:56
+msgid "Discover PopUpBuilder.App"
+msgstr "Entdecken Sie PopUpBuilder.App"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://popupbuilder.app"
+msgstr "https://popupbuilder.app"
+
+#. Description of the plugin/theme
+msgid ""
+"PopUpBuilder.App is a easy to use and simple plugin to create user "
+"interactions with notifications and push your conversionrate."
+msgstr ""
+"PopUpBuilder.App ist ein einfach zu bedienendes und einfaches Plugin, um "
+"Benutzerinteraktionen mit Benachrichtigungen zu erstellen und Ihre "
+"Conversionrate zu steigern."
+
+#. Author of the plugin/theme
+msgid "Bajorat Media"
+msgstr "Bajorat Media"
